@@ -91,6 +91,187 @@
 .nav-drop-downcontainer-phd:before {
   background-color: #f339a6;
 }
+/* หน่วยงาน  */
+.subject-ge-colour-animate:before {
+  background-color: #008ff9;
+}
+.nav-drop-down--hover-ge span:before,
+.nav-drop-downcontainer-ge:before {
+  background-color: #008ff9;
+}
+.subject-hr-colour-animate:before {
+  background-color: #742391;
+}
+.nav-drop-down--hover-hr span:before,
+.nav-drop-downcontainer-hr:before {
+  background-color: #742391;
+}
+.subject-fin-colour-animate:before {
+  background-color: #8a0d15;
+}
+.nav-drop-down--hover-fin span:before,
+.nav-drop-downcontainer-fin:before {
+  background-color: #8a0d15;
+}
+.subject-qa-colour-animate:before {
+  background-color: #6746ff;
+}
+.nav-drop-down--hover-qa span:before,
+.nav-drop-downcontainer-qa:before {
+  background-color: #6746ff;
+}
+.subject-plan-colour-animate:before {
+  background-color: #078781;
+}
+.nav-drop-down--hover-plan span:before,
+.nav-drop-downcontainer-plan:before {
+  background-color: #078781;
+}
+.subject-folders-colour-animate:before {
+  background-color: #a38500;
+}
+.nav-drop-down--hover-folders span:before,
+.nav-drop-downcontainer-folders:before {
+  background-color: #a38500;
+}
+.subject-stock-colour-animate:before {
+  background-color: #33dfa3;
+}
+.nav-drop-down--hover-stock span:before,
+.nav-drop-downcontainer-stock:before {
+  background-color: #33dfa3;
+}
+.subject-bu-colour-animate:before {
+  background-color: #f339a6;
+}
+.nav-drop-down--hover-bu span:before,
+.nav-drop-downcontainer-bu:before {
+  background-color: #f339a6;
+}
+
+/*  */
+.subject-su-colour-animate:before {
+  background-color: #3de7c8;
+}
+.nav-drop-down--hover-su span:before,
+.nav-drop-downcontainer-su:before {
+  background-color: #3de7c8;
+}
+.subject-student-colour-animate:before {
+  background-color: #d7ae1c;
+}
+.nav-drop-down--hover-student span:before,
+.nav-drop-downcontainer-student:before {
+  background-color: #d7ae1c;
+}
+.subject-syllabus-colour-animate:before {
+  background-color: #008ff9;
+}
+.nav-drop-down--hover-syllabus span:before,
+.nav-drop-downcontainer-syllabus:before {
+  background-color: #008ff9;
+}
+.subject-research-colour-animate:before {
+  background-color: #742391;
+}
+.nav-drop-down--hover-research span:before,
+.nav-drop-downcontainer-research:before {
+  background-color: #742391;
+}
+.subject-gradttmed-colour-animate:before {
+  background-color: #8a0d15;
+}
+.nav-drop-down--hover-gradttmed span:before,
+.nav-drop-downcontainer-gradttmed:before {
+  background-color: #8a0d15;
+}
+.subject-clerkship-colour-animate:before {
+  background-color: #6746ff;
+}
+.nav-drop-down--hover-clerkship span:before,
+.nav-drop-downcontainer-clerkship:before {
+  background-color: #6746ff;
+}
+.subject-examination-colour-animate:before {
+  background-color: #078781;
+}
+.nav-drop-down--hover-examination span:before,
+.nav-drop-downcontainer-examination:before {
+  background-color: #078781;
+}
+.subject-inter-colour-animate:before {
+  background-color: #a38500;
+}
+.nav-drop-down--hover-inter span:before,
+.nav-drop-downcontainer-inter:before {
+  background-color: #a38500;
+}
+.subject-library-colour-animate:before {
+  background-color: #33dfa3;
+}
+.nav-drop-down--hover-library span:before,
+.nav-drop-downcontainer-library:before {
+  background-color: #33dfa3;
+}
+.subject-av-colour-animate:before {
+  background-color: #f339a6;
+}
+.nav-drop-down--hover-av span:before,
+.nav-drop-downcontainer-av:before {
+  background-color: #f339a6;
+}
+.subject-it-colour-animate:before {
+  background-color: #3de7c8;
+}
+.nav-drop-down--hover-it span:before,
+.nav-drop-downcontainer-it:before {
+  background-color: #3de7c8;
+}
+
+/*  */
+.subject-hosp-colour-animate:before {
+  background-color: #d7ae1c;
+}
+.nav-drop-down--hover-hosp span:before,
+.nav-drop-downcontainer-hosp:before {
+  background-color: #d7ae1c;
+}
+.subject-hiring-colour-animate:before {
+  background-color: #078781;
+}
+.nav-drop-down--hover-hiring span:before,
+.nav-drop-downcontainer-hiring:before {
+  background-color: #078781;
+}
+.subject-med-colour-animate:before {
+  background-color: #e0e256;
+}
+.nav-drop-down--hover-med span:before,
+.nav-drop-downcontainer-med:before {
+  background-color: #e0e256;
+}
+.subject-drugs-colour-animate:before {
+  background-color: #008ff9;
+}
+.nav-drop-down--hover-drugs span:before,
+.nav-drop-downcontainer-drugs:before {
+  background-color: #008ff9;
+}
+.subject-massage-colour-animate:before {
+  background-color: #8a0d15;
+}
+.nav-drop-down--hover-massage span:before,
+.nav-drop-downcontainer-massage:before {
+  background-color: #8a0d15;
+}
+.subject-midwifery-colour-animate:before {
+  background-color: #f339a6;
+}
+.nav-drop-down--hover-midwifery span:before,
+.nav-drop-downcontainer-midwifery:before {
+  background-color: #f339a6;
+}
+
 /* บุคลากร  */
 .subject-executive-colour-animate:before {
   background-color: #008ff9;
