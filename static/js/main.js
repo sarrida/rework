@@ -17707,7 +17707,7 @@ rework.guide = {};
               g(),
               (goog.dom.getElementsByClass(
                 rework.guide.GUIDE_RATE_HEADER
-              )[0].innerHTML = "Thanks for feedback!");
+              )[0].innerHTML = "ขอขอบคุณค่ะ/ครับ !");
           else if ("invalid" === b.result)
             throw Error(
               "There was an error submitting the form: " +

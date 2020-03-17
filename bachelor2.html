@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>re:Work</title>
+    <link rel="stylesheet" href="static/icon.css" />
+    <link rel="stylesheet" href="static/css.css" />
+    <link rel="stylesheet" href="static/csss.css" />
+
+    <link rel="stylesheet" href="static/main.css" />
+    <link rel="icon" href="static/favicon.ico" />
+    <script async="" defer=""
+        src="//www.google.com/insights/consumersurveys/async_survey?site=yc5vnyzjosfz6fwr64u5ilxaea"></script>
+
+    <!-- <meta name="google-site-verification" content="voaNbwoAHzNLuow8UJYjJNjEbPtQdOiKWM1CHtkHr40" /> -->
+    <link rel="stylesheet" href="static/subject-colours.css" />
+</head>
+
+<body class="" data-google-analytics-id="UA-66359923-1">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header role="banner" class="mdl-layout__header">
+            <div class="cookies-banner">
+                <div class="cookies-banner__content mdl-grid fixed-width">
+                    <div>
+                        This site uses cookies from Google to deliver its services and
+                        analyze traffic.
+                        <a class="cookies-banner__link"
+                            href="https://policies.google.com/technologies/cookies?hl=en">Learn more</a>
+                    </div>
+                    <button class="mdl-button mdl-js-button mdl-js-ripple-effect cookies-banner__btn">
+                        OK
+                    </button>
+                </div>
+            </div>
+
+            <div class="mdl-layout__header-row hide-for-print">
+                <div class="mdl-layout__drawer-button" aria-label="Toggle menu">
+                    <i class="material-icons icon icon--open" role="presentation">menu</i>
+                    <i class="material-icons icon icon--close" role="presentation">close</i>
+                </div>
+                <h1 class="branding">
+                    <a class="branding-logo" href="/"><img alt="re:Work" width="102" height="23"
+                            class="mdl-layout-title"
+                            src="https://rework.withgoogle.com/static/7b23111c/public/images/logo.png" /></a>
+                </h1>
+                <div class="mdl-layout-spacer"></div>
+                <!-- navbar -->
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="index.html">หน้าแรก</a>
+
+                    <a class="mdl-navigation__link js-nav-drop-down" href="#">เกี่ยวกับคณะ
+                        <i class="material-icons" role="presentation">arrow_drop_down</i>
+                    </a>
+                    <div class="nav-drop-down__listcontainer">
+                        <ul class="nav-drop-down__list">
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-about-setting"
+                                    data-slug="about-setting" href="#"><span>วิสัยทัศน์/พันธกิจ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-history" data-slug="history"
+                                    href="#"><span>ประวัติคณะ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-structure" data-slug="structure"
+                                    href="organizational.html"><span>โครงสร้างองค์กร</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-identity" data-slug="identity"
+                                    href="#"><span>อัตลักษณ์ของคณะ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-emblem" data-slug="emblem"
+                                    href="#"><span>ตราสัญลักษณ์</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-flowers" data-slug="flowers"
+                                    href="#"><span>ดอกไม้ประจำคณะ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-color" data-slug="color"
+                                    href="#"><span>สีประจำคณะ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-music" data-slug="music"
+                                    href="#"><span>เพลงประจำคณะ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-award" data-slug="award"
+                                    href="#"><span>ผลงาน /
+                                        รางวัล</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-location" data-slug="location"
+                                    href="#"><span>สถานที่ตั้งและการติดต่อ</span></a>
+                            </li>
+                        </ul>
+                        <div class="nav-drop-downcontainer">
+                            <p class="nav-drop-down__text"></p>
+                        </div>
+                    </div>
+
+                    <a class="mdl-navigation__link   " href="#">หลักสูตร
+                        <i class="material-icons" role="presentation">arrow_drop_down</i>
+                    </a>
+                    <div class="nav-drop-down__listcontainer">
+                        <ul class="nav-drop-down__list">
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-bachelor" data-slug="bachelor"
+                                    href="bachelor.html"><span>หลักสูตรปริญญาตรี</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-master" data-slug="master"
+                                    href="master.html"><span>หลักสูตรปริญญาโท</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-phd" data-slug="phd"
+                                    href="phd.html"><span>หลักสูตรปริญญาเอก</span></a>
+                            </li>
+                        </ul>
+                        <div class="nav-drop-downcontainer">
+                            <p class="nav-drop-down__text"></p>
+                        </div>
+                    </div>
+
+                    <a class="mdl-navigation__link" href="#">หน่วยงาน</a>
+                    <a class="mdl-navigation__link js-nav-drop-down" href="#">บุคลากร
+                        <i class="material-icons" role="presentation">arrow_drop_down</i>
+                    </a>
+                    <div class="nav-drop-down__listcontainer">
+                        <ul class="nav-drop-down__list">
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-executive" data-slug="executive"
+                                    href="#"><span>ผู้บริหารและประธานกรรมการ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-faculty" data-slug="faculty"
+                                    href="#"><span>คณาจารย์</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-professional"
+                                    data-slug="professional" href="#"><span>อาจารย์วิชาชีพการแพทย์แผนไทย</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-academic" data-slug="academic"
+                                    href="#"><span>อาจารย์วิชาการ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-other" data-slug="other"
+                                    href="#"><span>อาจารย์อื่นๆ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-teaching" data-slug="teaching "
+                                    href="#"><span>อาจารย์ผู้ช่วยสอน</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-general" data-slug="general"
+                                    href="#"><span>ฝ่ายบริหารทั่วไป</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-support" data-slug="support"
+                                    href="#"><span>ฝ่ายสนับสนุนวิชาการ</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-department " data-slug="department"
+                                    href="#"><span>สายสนับสนุนสาขาวิชา</span></a>
+                            </li>
+                            <li>
+                                <a class="nav-drop-down--hover nav-drop-down--hover-hospital" data-slug="hospital"
+                                    href="#"><span>โรงพยาบาลการแพทย์แผนไทย</span></a>
+                            </li>
+                        </ul>
+                        <div class="nav-drop-downcontainer">
+                            <p class="nav-drop-down__text"></p>
+                        </div>
+                    </div>
+
+                    <a class="mdl-navigation__link" href="complain.html">แจ้งข้อร้องเรียน</a>
+
+                </nav>
+
+                <span data-search-url="/search/" class="mdl-button mdl-js-button mdl-button--icon js-search-button">
+                    <i class="material-icons">search</i>
+                </span>
+            </div>
+            <!-- ค้นหา -->
+            <div class="global-search global-search--hidden">
+                <form role="search" action="/search/" method="get">
+                    <div
+                        class="mdl-textfield mdl-textfield--full-width mdl-textfield--large mdl-js-textfield global-search__textfield">
+                        <input id="global-search" name="q" class="mdl-textfield__input global-search__input"
+                            autocomplete="off" type="text" placeholder="Search" aria-labelledby="global-search"
+                            aria-expanded="false" />
+                        <span class="global-search__hint" aria-role="presentation"></span>
+                        <label class="mdl-textfield__label" for="global-search">
+                            <i class="material-icons global-search__icon" role="presentation">search</i>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <!-- sidebar -->
+        <div class="mdl-layout__drawer navigation-drawer">
+            <nav role="navigation" class="mdl-navigation">
+                <a class="mdl-navigation__link" href="/">หน้าแรก</a>
+                <a class="mdl-navigation__link navigation-expand" href="#">เกี่ยวกับคณะ
+                    <i class="material-icons icon-drop-down" role="presentation">arrow_drop_down</i>
+                </a>
+                <ul class="navigation-drawer__subnav navigation-expand-content">
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">วิสัยทัศน์/พันธกิจ</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">ประวัติคณะ</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="organizational.html">โครงสร้างองค์กร</a>
+                    </li>
+                </ul>
+
+                <a class="mdl-navigation__link" href="#">อัตลักษณ์ของคณะ</a>
+
+                <ul class="navigation-drawer__subnav">
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">ตราสัญลักษณ์</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">ดอกไม้ประจำคณะ</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">สีประจำคณะ</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">เพลงประจำคณะ</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">ผลงาน/รางวัล</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">สถานที่ตั้งและการติดต่อ</a>
+                    </li>
+                </ul>
+
+                <a class="mdl-navigation__link navigation-expand" href="#">หลักสูตร
+                    <i class="material-icons icon-drop-down" role="presentation">arrow_drop_down</i>
+                </a>
+                <ul class="navigation-drawer__subnav">
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="bachelor.html">หลักสูตรปริญญาตรี</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="master.html">หลักสูตรปริญญาโท</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="phd.html">หลักสูตรปริญญาเอก</a>
+                    </li>
+                </ul>
+
+                <a class="mdl-navigation__link" href="#">หน่วยงาน</a>
+
+                <a class="mdl-navigation__link navigation-expand" href="#">บุคลากร
+                    <i class="material-icons icon-drop-down" role="presentation">arrow_drop_down</i>
+                </a>
+                <ul class="navigation-drawer__subnav">
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">ผู้บริหารและประธานกรรมการ</a>
+                    </li>
+                </ul>
+                <a class="mdl-navigation__link navigation-expand" href="#">คณาจารย์
+                </a>
+                <ul class="navigation-drawer__subnav">
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">อาจารย์วิชาชีพการแพทย์แผนไทย</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">อาจารย์วิชาการ</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">อาจารย์อื่นๆ</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">อาจารย์ผู้ช่วยสอน</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">ฝ่ายบริหารทั่วไป</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">ฝ่ายสนับสนุนวิชาการ</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">สายสนับสนุนสาขาวิชา</a>
+                    </li>
+                    <li class="navigation-drawer__subnav-item">
+                        <a class="mdl-navigation__link" href="#">โรงพยาบาลการแพทย์แผนไทย</a>
+                    </li>
+                </ul>
+
+                <a class="mdl-navigation__link" href="complain.html">แจ้งข้อร้องเรียน</a>
+            </nav>
+        </div>
+
+        <!-- mini navigation -->
+        <div class="secondary-drawer">
+            <div class="guide__nav">
+                <div class="nav__header">
+                    <div class="nav__subject">
+                        <a href="index.html/subjects/managers/">หน้าแรก</a>
+                    </div>
+                    <h2 class="nav__title">หลักสูตร</h2>
+                </div>
+                <div class="nav__body">
+                    <ul class="nav__step-links">
+                        <li>
+                            <a class="step-link step-link--active" href="bachelor.html"><span class="step-link__title">
+                                    หลักสูตรปริญญาตรี
+                                </span></a>
+                        </li>
+
+                        <li>
+                            <a class="step-link " href="master.html"><span class="step-link__title">
+                                    หลักสูตรปริญญาโท
+                                </span></a>
+                        </li>
+
+                        <li>
+                            <a class="step-link " href="phd.html"><span class="step-link__title">หลักสูตรปริญญาเอก
+                                </span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- share -->
+                <div class="nav__footer">
+                    <button id="share-button-small" class="nav__icon nav__icon--link mdl-button">
+                        <span>Share</span>
+                        <i class="material-icons">share</i>
+                    </button>
+                    <ul class="nav__share-menu mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+                        for="share-button-small">
+                        <li class="mdl-menu__item">
+                            <a href="https://plus.google.com/up/?continue=https://plus.google.com/share?url%3Dhttps://rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/"
+                                target="_blank" class="analytics-event" data-analytics-event-category="share"
+                                data-analytics-event-action="click" data-analytics-event-label="google+">
+                                <img src="https://rework.withgoogle.com/static/7b23111c/public/images/gplus-icon-dark.png"
+                                    alt="Share on Google+" />Google+
+                            </a>
+                        </li>
+                        <li class="mdl-menu__item">
+                            <a href="https://www.linkedin.com/shareArticle?url=https%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/&amp;title=Develop%20and%20support%20managers&amp;source=rework.withgoogle.com&amp;summary=Growing%20and%20training%20managers%2C%20with%20the%20help%20of%20Google%27s%20training%20workshop%2C%20can%20help%20build%20a%20culture%20of%20great%20management."
+                                target="_blank" class="analytics-event" data-analytics-event-category="share"
+                                data-analytics-event-action="click" data-analytics-event-label="linkedin">
+                                <svg class="icon-linkedin icon" width="20px" height="20px" viewBox="1362 824 156 144"
+                                    version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <polygon id="path-1" points="144.002 143.94 0 143.94 0 71.97 0 0 144.002 0">
+                                        </polygon>
+                                    </defs>
+                                    <g id="In-2C-PMS-2in-R" stroke="none" stroke-width="1" fill="none"
+                                        fill-rule="evenodd" transform="translate(1362.000000, 824.000000)">
+                                        <g id="Group-3">
+                                            <mask fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <g id="Clip-2"></g>
+                                            <path
+                                                d="M133.343,0 L10.629,0 C4.765,0 0,4.648 0,10.379 L0,133.609 C0,139.345 4.765,144 10.629,144 L133.343,144 C139.217,144 144.002,139.345 144.002,133.609 L144.002,10.379 C144.002,4.648 139.217,0 133.343,0"
+                                                class="linkedin-fill-1 icon-hover icon-fill-dark" mask="url(#mask-2)">
+                                            </path>
+                                        </g>
+                                        <path
+                                            d="M32.034,19.825 C38.862,19.825 44.411,25.374 44.411,32.205 C44.411,39.041 38.862,44.592 32.034,44.592 C25.188,44.592 19.647,39.041 19.647,32.205 C19.647,25.374 25.188,19.825 32.034,19.825 L32.034,19.825 Z M21.35,122.707 L42.709,122.707 L42.709,53.986 L21.35,53.986 L21.35,122.707 Z"
+                                            class="linkedin-fill-2 icon-fill-white"></path>
+                                        <path
+                                            d="M56.104,53.986 L76.593,53.986 L76.593,63.375 L76.877,63.375 C79.727,57.973 86.694,52.276 97.085,52.276 C118.713,52.276 122.706,66.509 122.706,85.012 L122.706,122.707 L101.362,122.707 L101.362,89.288 C101.362,81.315 101.216,71.065 90.264,71.065 C79.149,71.065 77.447,79.747 77.447,88.711 L77.447,122.707 L56.104,122.707 L56.104,53.986"
+                                            class="linkedin-fill-3 icon-fill-white"></path>
+                                        <path
+                                            d="M151.269,119.584 L150.595,119.584 L150.595,118.218 L151.449,118.218 C151.89,118.218 152.395,118.29 152.395,118.867 C152.395,119.531 151.886,119.584 151.269,119.584 L151.269,119.584 Z M151.939,119.989 C152.62,119.905 152.976,119.531 152.976,118.9 C152.976,118.131 152.512,117.758 151.556,117.758 L150.016,117.758 L150.016,121.801 L150.595,121.801 L150.595,120.041 L151.31,120.041 L151.326,120.062 L152.433,121.801 L153.053,121.801 L151.862,119.999 L151.939,119.989 L151.939,119.989 Z"
+                                            id="Fill-6"></path>
+                                        <path
+                                            d="M151.335,123.107 C149.503,123.107 148.068,121.662 148.068,119.783 C148.068,117.909 149.503,116.463 151.335,116.463 C153.165,116.463 154.6,117.909 154.6,119.783 C154.6,121.662 153.165,123.107 151.335,123.107 L151.335,123.107 Z M151.335,115.96 C149.188,115.96 147.505,117.641 147.505,119.783 C147.505,121.931 149.188,123.607 151.335,123.607 C153.48,123.607 155.16,121.931 155.16,119.783 C155.16,117.641 153.48,115.96 151.335,115.96 L151.335,115.96 Z"
+                                            class="linkedin-fill-4"></path>
+                                    </g>
+                                </svg>
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li class="mdl-menu__item">
+                            <a href="https://twitter.com/intent/tweet/?text=%23makeworkbetter&amp;url=https%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/"
+                                target="_blank" class="analytics-event" data-analytics-event-category="share"
+                                data-analytics-event-action="click" data-analytics-event-label="twitter"><i
+                                    class="icon-twitter"></i>Twitter</a>
+                        </li>
+                        <li class="mdl-menu__item">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/"
+                                target="_blank" class="analytics-event" data-analytics-event-category="share"
+                                data-analytics-event-action="click" data-analytics-event-label="facebook"><i
+                                    class="icon-facebook-official"></i>Facebook</a>
+                        </li>
+                        <li class="mdl-menu__item">
+                            <a href="mailto:?subject=Check out this guide from re:Work with Google&body=Develop and support managers%0D%0A%0D%0AGrowing and training managers, with the help of Google&#39;s training workshop, can help build a culture of great management.%0D%0A%0D%0Ahttps%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/"
+                                target="_blank" class="analytics-event" data-analytics-event-category="share"
+                                data-analytics-event-action="click" data-analytics-event-label="email"><i
+                                    class="material-icons">mail</i>E-mail</a>
+                        </li>
+                    </ul>
+                    <div class="button-wrapper hide-small">
+                        <button id="print-button-small" class="nav__icon nav__icon--print mdl-button">
+                            <i class="material-icons">print</i>
+                        </button>
+                    </div>
+                    <!-- print -->
+                    <ul for="print-button-small"
+                        class="nav__share-menu mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect">
+                        <li class="mdl-menu__item">
+                            <a class="analytics-event print-page-trigger" data-analytics-event-category="print"
+                                data-analytics-event-action="click" data-analytics-event-label="step">Print this
+                                step</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- main -->
+        <main role="main" class="main-content">
+            <div class="guide-detail-page">
+                <div class="section section--hero"
+                    data-img="//lh3.googleusercontent.com/LWcOeQ_CwZhI894ZH5C_1QGIEP6hSH9szZOoyofGrkRJJfwnmltIGrFoFyNEJ1jUHVTqm2_UrU0WIWWO3ZpORg=s0">
+                </div>
+                <div class="guide mdl-grid fixed-width">
+                    <div class="mdl-cell mdl-cell--3-col section__nav section__block hide-small">
+                        <div class="guide__container">
+                            <div class="guide__nav">
+                                <div class="nav__header">
+                                    <div class="nav__subject">
+                                        <a href="index.html">หน้าแรก</a>
+                                    </div>
+                                    <h2 class="nav__title">
+                                        หลักสูตร
+                                    </h2>
+                                </div>
+                                <div class="nav__body">
+                                    <ul class="nav__step-links">
+                                        <li>
+                                            <a class="step-link step-link--active" href="bachelor.html"><span
+                                                    class="step-link__title">
+                                                    หลักสูตรปริญญาตรี
+                                                </span></a>
+                                        </li>
+
+                                        <li>
+                                            <a class="step-link " href="master.html"><span class="step-link__title">
+                                                    หลักสูตรปริญญาโท
+                                                </span></a>
+                                        </li>
+
+                                        <li>
+                                            <a class="step-link " href="phd.html"><span class="step-link__title">
+                                                    หลักสูตรปริญญาเอก
+                                                </span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- share -->
+                                <div class="nav__footer">
+                                    <button id="share-button-large" class="nav__icon nav__icon--link mdl-button">
+                                        <span>Share</span>
+                                        <i class="material-icons">share</i>
+                                    </button>
+                                    <ul class="nav__share-menu mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+                                        for="share-button-large">
+                                        <li class="mdl-menu__item">
+                                            <a href="https://plus.google.com/share?url=https%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/"
+                                                target="_blank" class="analytics-event"
+                                                data-analytics-event-category="share"
+                                                data-analytics-event-action="click"
+                                                data-analytics-event-label="google+">
+                                                <img src="https://rework.withgoogle.com/static/7b23111c/public/images/gplus-icon-dark.png"
+                                                    alt="Share on Google+" />Google+
+                                            </a>
+                                        </li>
+                                        <li class="mdl-menu__item">
+                                            <a href="https://www.linkedin.com/shareArticle?url=https%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/&amp;title=Develop%20and%20support%20managers&amp;source=rework.withgoogle.com&amp;summary=Growing%20and%20training%20managers%2C%20with%20the%20help%20of%20Google%27s%20training%20workshop%2C%20can%20help%20build%20a%20culture%20of%20great%20management."
+                                                target="_blank" class="analytics-event"
+                                                data-analytics-event-category="share"
+                                                data-analytics-event-action="click"
+                                                data-analytics-event-label="linkedin">
+                                                <svg class="icon-linkedin icon" width="20px" height="20px"
+                                                    viewBox="1362 824 156 144" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <defs>
+                                                        <polygon id="path-1"
+                                                            points="144.002 143.94 0 143.94 0 71.97 0 0 144.002 0">
+                                                        </polygon>
+                                                    </defs>
+                                                    <g id="In-2C-PMS-2in-R" stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd"
+                                                        transform="translate(1362.000000, 824.000000)">
+                                                        <g id="Group-3">
+                                                            <mask fill="white">
+                                                                <use xlink:href="#path-1"></use>
+                                                            </mask>
+                                                            <g id="Clip-2"></g>
+                                                            <path
+                                                                d="M133.343,0 L10.629,0 C4.765,0 0,4.648 0,10.379 L0,133.609 C0,139.345 4.765,144 10.629,144 L133.343,144 C139.217,144 144.002,139.345 144.002,133.609 L144.002,10.379 C144.002,4.648 139.217,0 133.343,0"
+                                                                class="linkedin-fill-1 icon-hover icon-fill-dark"
+                                                                mask="url(#mask-2)"></path>
+                                                        </g>
+                                                        <path
+                                                            d="M32.034,19.825 C38.862,19.825 44.411,25.374 44.411,32.205 C44.411,39.041 38.862,44.592 32.034,44.592 C25.188,44.592 19.647,39.041 19.647,32.205 C19.647,25.374 25.188,19.825 32.034,19.825 L32.034,19.825 Z M21.35,122.707 L42.709,122.707 L42.709,53.986 L21.35,53.986 L21.35,122.707 Z"
+                                                            class="linkedin-fill-2 icon-fill-white"></path>
+                                                        <path
+                                                            d="M56.104,53.986 L76.593,53.986 L76.593,63.375 L76.877,63.375 C79.727,57.973 86.694,52.276 97.085,52.276 C118.713,52.276 122.706,66.509 122.706,85.012 L122.706,122.707 L101.362,122.707 L101.362,89.288 C101.362,81.315 101.216,71.065 90.264,71.065 C79.149,71.065 77.447,79.747 77.447,88.711 L77.447,122.707 L56.104,122.707 L56.104,53.986"
+                                                            class="linkedin-fill-3 icon-fill-white"></path>
+                                                        <path
+                                                            d="M151.269,119.584 L150.595,119.584 L150.595,118.218 L151.449,118.218 C151.89,118.218 152.395,118.29 152.395,118.867 C152.395,119.531 151.886,119.584 151.269,119.584 L151.269,119.584 Z M151.939,119.989 C152.62,119.905 152.976,119.531 152.976,118.9 C152.976,118.131 152.512,117.758 151.556,117.758 L150.016,117.758 L150.016,121.801 L150.595,121.801 L150.595,120.041 L151.31,120.041 L151.326,120.062 L152.433,121.801 L153.053,121.801 L151.862,119.999 L151.939,119.989 L151.939,119.989 Z"
+                                                            id="Fill-6"></path>
+                                                        <path
+                                                            d="M151.335,123.107 C149.503,123.107 148.068,121.662 148.068,119.783 C148.068,117.909 149.503,116.463 151.335,116.463 C153.165,116.463 154.6,117.909 154.6,119.783 C154.6,121.662 153.165,123.107 151.335,123.107 L151.335,123.107 Z M151.335,115.96 C149.188,115.96 147.505,117.641 147.505,119.783 C147.505,121.931 149.188,123.607 151.335,123.607 C153.48,123.607 155.16,121.931 155.16,119.783 C155.16,117.641 153.48,115.96 151.335,115.96 L151.335,115.96 Z"
+                                                            class="linkedin-fill-4"></path>
+                                                    </g>
+                                                </svg>
+                                                LinkedIn
+                                            </a>
+                                        </li>
+                                        <li class="mdl-menu__item">
+                                            <a href="https://twitter.com/intent/tweet/?text=%23makeworkbetter&amp;url=https%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/"
+                                                target="_blank" class="analytics-event"
+                                                data-analytics-event-category="share"
+                                                data-analytics-event-action="click"
+                                                data-analytics-event-label="twitter"><i
+                                                    class="icon-twitter"></i>Twitter</a>
+                                        </li>
+                                        <li class="mdl-menu__item">
+                                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/"
+                                                target="_blank" class="analytics-event"
+                                                data-analytics-event-category="share"
+                                                data-analytics-event-action="click"
+                                                data-analytics-event-label="facebook"><i
+                                                    class="icon-facebook-official"></i>Facebook</a>
+                                        </li>
+                                        <li class="mdl-menu__item">
+                                            <a href="mailto:?subject=Check out this guide from re:Work with Google&body=Develop and support managers%0D%0A%0D%0AGrowing and training managers, with the help of Google&#39;s training workshop, can help build a culture of great management.%0D%0A%0D%0Ahttps%3A//rework.withgoogle.com/guides/managers-develop-and-support-managers/steps/introduction/"
+                                                target="_blank" class="analytics-event"
+                                                data-analytics-event-category="share"
+                                                data-analytics-event-action="click"
+                                                data-analytics-event-label="email"><i
+                                                    class="material-icons">mail</i>E-mail</a>
+                                        </li>
+                                    </ul>
+                                    <!-- print -->
+                                    <div class="button-wrapper hide-small">
+                                        <button id="print-button-large" class="nav__icon nav__icon--print mdl-button">
+                                            <i class="material-icons">print</i>
+                                        </button>
+                                    </div>
+                                    <ul for="print-button-large"
+                                        class="nav__share-menu mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect">
+                                        <li class="mdl-menu__item">
+                                            <a class="analytics-event print-page-trigger"
+                                                data-analytics-event-category="print"
+                                                data-analytics-event-action="click"
+                                                data-analytics-event-label="step">Print this
+                                                step</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- rate -->
+                            <div class="guide__rate">
+                                <p class="rate__guide-header">ความพึงพอใจกับบทความ ?</p>
+                                <div class="rate__guide-name" data-name="Develop and support managers"
+                                    data-pk="5749328048029696"></div>
+                                <div>
+                                    <i class="material-icons rate__icon rate__icon--happy analytics-event"
+                                        data-satisfaction="happy" data-analytics-event-category="send"
+                                        data-analytics-event-action="click">mood</i>
+                                    <i class="material-icons rate__icon rate__icon--sad analytics-event"
+                                        data-satisfaction="sad" data-analytics-event-category="send"
+                                        data-analytics-event-action="click">mood_bad</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdl-cell mdl-cell--9-col mdl-cell--12-col-tablet section__block">
+                        <div class="guide__step mdl-shadow--4dp ">
+                            <article role="article">
+                                <div class="step__header">
+                                    <div class="step__guide-name"></div>
+                                    <h3 class="step__title">หลักสูตรปริญญาตรี</h3>
+                                </div>
+                                <div class="step__body">
+                                    <div class="step__description markdown">
+                                        <h2>จุดเด่นของหลักสูตร</h2>
+                                        <p style="text-indent: 2.5em;">
+                                            เป็นหลักสูตรที่เน้นทั้งวิชาบรรยาย วิชาปฏิบัติการ
+                                            และการฝึกปฏิบัติงานเชิงวิชาชีพหรือฝึกประสบการณ์ทางวิชาชีพ
+                                            ในวิชาปฏิบัติการจะเน้นสอนให้นักศึกษาได้ฝึกปฏิบัติตรวจวินิจฉัยโรคและจ่ายยารักษาผู้ป่วยจริง
+                                            รู้จักสมุนไพรที่มีการนำมาใช้เป็นยาทั้งในรูปแบบสดและแห้ง
+                                            ฝึกให้สามารถเตรียมยาแผนไทยในรูปแบบยาเตรียมต่างๆ เช่น ผง เม็ด ฯลฯ
+                                            นอกจากนี้ยังฝึกให้สามารถเตรียมผลิตภัณฑ์จากสมุนไพรในหลากหลายรูปแบบ เช่น ครีม
+                                            เจล แคปซูล ฯลฯ
+                                            ทั้งนี้เพื่อให้ผู้เรียนมีความรู้ ความสามารถ และทักษะ
+                                            ที่จะออกไปประกอบอาชีพด้านการแพทย์แผนไทยได้เป็นอย่างดี
+                                        </p>
+                                        <p style="text-indent: 2.5em;">
+                                            มีการเตรียมความพร้อมให้กับผู้ที่จะสำเร็จการศึกษา
+                                            โดยจัดให้มีการสอบประมวลความรอบรู้ก่อนสำเร็จการศึกษา
+                                            ซึ่งเป็นส่วนหนึ่งของการประกันคุณภาพการศึกษาของหลักสูตร
+                                            และเป็นการวัดผลการประมวลความรู้เชิงวิชาชีพทั้งภาคทฤษฎีและภาคปฏิบัติ ทั้งนี้
+                                            เพื่อให้มีความมั่นใจได้ว่าบัณฑิตที่จะสำเร็จการศึกษาออกไปประกอบวิชาชีพ
+                                            เป็นผู้ที่มีความรู้ ความสามารถอย่างแท้จริง
+                                        </p>
+                                        <p style="text-indent: 2.5em;">
+                                            นอกจากนี้ ยังมีการเตรียมความพร้อมด้านต่างๆ ให้กับนักศึกษา ได้แก่
+                                            การพัฒนาทักษะทางด้านภาษาอังกฤษ
+                                            การเตรียมความพร้อมอย่างเข้มแข็งและต่อเนื่อง
+                                            เพื่อให้สามารถสอบใบประกอบโรคศิลปะด้านการแพทย์แผนไทยใน 4 ประเภท คือ
+                                            เวชกรรมไทย เภสัชกรรมไทย นวดไทย และผดุงครรภ์ไทย
+                                            มีการเตรียมความพร้อมและปลูกฝังให้นักศึกษามีความคิดในการสร้างงาน
+                                            และการประกอบอาชีพอิสระ ตั้งแต่ชั้นปีที่ 1 เป็นต้นไป
+                                            และมีการจัดโครงการเตรียมความพร้อมให้กับนักศึกษาชั้นปีที่ 4
+                                            ในการสมัครงาน สัมภาษณ์งานและการทำงาน
+                                        </p>
+                                        <h2>ผลการเรียนรู้ที่คาดหวังของหลักสูตร (ELOs)</h2>
+                                        <ol type="1">
+                                            <li>ผลการเรียนรู้ด้านคุณธรรม จริยธรรม
+                                                <ol start="1">
+                                                    <li>
+                                                        มีระเบียบวินัย ซื่อสัตย์มีความรับผิดชอบต่อตนเอง
+                                                        และเป็นผู้มีจรรยาบรรณแห่งวิชาชีพ
+                                                    </li>
+                                                    <li>
+                                                        มีคุณธรรม จริยธรรม
+                                                        และเป็นแบบอย่างที่ดีต่อผู้อื่นทั้งในการดำรงตนและการปฏิบัติงาน
+                                                    </li>
+                                                    <li>
+                                                        ปฏิบัติตามกฎ ระเบียบ ข้อบังคับและหลักสิทธิมนุษยชน สิทธิเด็ก
+                                                        สิทธิผู้บริโภค สิทธิผู้ป่วย
+                                                        ตลอดจนสิทธิในการปฏิบัติการของแพทย์แผนไทย
+                                                        โดยคำนึงถึงความเป็นปัจเจกบุคคลและความหลากหลายทางวัฒนธรรม
+                                                    </li>
+                                                    <li>
+                                                        สามารถใช้เหตุผลในการแยกแยะ
+                                                        เชื่อมั่นและรู้คุณค่าในตนเองและผู้อื่น
+                                                    </li>
+                                                    <li>
+                                                        ดำรงชีวิตตามหลักปรัชญาของเศรษฐกิจพอเพียง
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                            <li>ผลการเรียนรู้ด้านความรู้
+                                                <ol start="1">
+                                                    <li>
+                                                        มีความรู้และความเข้าใจในศาสตร์ที่เป็นพื้นฐานชีวิตและพื้นฐานทางวิทยาศาสตร์สุขภาพที่ครอบคลุมทั้งวิทยาศาสตร์มนุษยศาสตร์สังคมศาสตร์กฎหมายและการปกครองระบอบประชาธิปไตย
+                                                    </li>
+                                                    <li>
+                                                        มีความรู้และความเข้าใจในหลักการและทฤษฏีการแพทย์แผนไทย
+                                                        การแพทย์พื้นบ้านไทย และสามารถบูรณาการกับศาสตร์อื่นที่เกี่ยวข้อง
+                                                    </li>
+                                                    <li>
+                                                        มีความรู้และทักษะในกระบวนการวิจัย
+                                                        และสามารถนำไปประยุกต์ใช้ในวิชาชีพได้
+                                                    </li>
+                                                    <li>
+                                                        มีความรู้และตระหนักถึงความสามารถในการเป็นผู้ประกอบการและการสร้างอาชีพ
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                            <li>ผลการเรียนรู้ด้านทักษะทางปัญญา
+                                                <ol start="1">
+                                                    <li>
+                                                        ตระหนักรู้ในศักยภาพและสิ่งที่เป็นจุดอ่อนของตน
+                                                        เพื่อพัฒนาตนเองให้มีความสามารถเพิ่มมากขึ้นสามารถนำไปสู่การปฏิบัติทางการแพทย์แผนไทย
+                                                        การสอน
+                                                        การแสวงหาความรู้ที่มีประสิทธิภาพ และการเป็นผู้นำที่เข้มแข็ง
+                                                    </li>
+                                                    <li>
+                                                        สามารถสืบค้นรวบรวม วิเคราะห์ ประเมินความน่าเชื่อถือของข้อมูล
+                                                        สรุปจากแหล่งข้อมูลที่หลากหลาย และนำข้อมูล ไปใช้ในการอ้างอิง
+                                                        และแก้ไขปัญหาอย่างมีวิจารณญาณ
+                                                        เพื่อให้มีคุณภาพในการให้บริการทางการแพทย์แผนไทย
+                                                    </li>
+                                                    <li>
+                                                        สามารถใช้กระบวนการทางวิทยาศาสตร์ ทางการวิจัย
+                                                        และนวัตกรรมที่เหมาะสม
+                                                        เพื่อพัฒนาวิธีการแก้ไขปัญหาให้มีประสิทธิภาพ
+                                                        สอดคล้องกับสถานการณ์และบริบททางสุขภาพที่เปลี่ยนไป
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="guide__arrows hide-small">
+                            <a class="arrow-link--previous" href="bachelor.html">
+                                <i class="arrow-link__icon material-icons">arrow_back</i>
+                                <div class="arrow-link__text">
+                                    <p class="arrow-link__header">ก่อนหน้านี้</p>
+                                    <p class="arrow-link__title">หลักสูตรปริญญาตรี</p>
+                                </div>
+                            </a>
+                            <a class="arrow-link--next" href="bachelor3.html">
+                                <div class="arrow-link__text">
+                                    <p class="arrow-link__header">หน้าถัดไป</p>
+                                    <p class="arrow-link__title">
+                                        ผลการเรียนรู้ที่คาดหวังของหลักสูตร (ELOs) ต่อ
+                                    </p>
+                                </div>
+                                <i class="arrow-link__icon material-icons">arrow_forward</i>
+                            </a>
+                        </div>
+                        <div class="guide__rate hide-large">
+                            <p>ความพึงพอใจกับบทความ ?</p>
+                            <div class="rate__guide-name" data-name="Develop and support managers"
+                                data-pk="5749328048029696">
+                            </div>
+                            <div>
+                                <i class="material-icons rate__icon rate__icon--happy"
+                                    data-satisfaction="happy">mood</i>
+                                <i class="material-icons rate__icon rate__icon--sad"
+                                    data-satisfaction="sad">mood_bad</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-mobile-footer hide-large">
+                <div class="arrow__container">
+
+                    <a class="arrow__link" href="bachelor.html">
+                        <i class="material-icons">arrow_back</i>
+                    </a>
+
+                </div>
+                <div class="menu__link secondary-drawer-toggle-button">
+                    <i class="material-icons">list</i>
+                    <span>2 / 3</span>
+                </div>
+                <div class="arrow__container">
+
+                    <a class="arrow__link" href="bachelor3.html">
+                        <i class="material-icons">arrow_forward</i>
+                    </a>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+    <script src="/static/js/analytics.js"></script>
+    <script id="autocomplete_search_data" type="application/json">
+      {
+        "subjects": [
+          "Goal Setting",
+          "Hiring",
+          "Innovation",
+          "Learning \\u0026 Development",
+          "Managers",
+          "People Analytics",
+          "Teams",
+          "Unbiasing"
+        ],
+        "tags": [
+          "Behavioral economics",
+          "Psychological safety",
+          "Civility",
+          "Interviewing",
+          "Communication"
+        ]
+      }
+  </script>
+    <script class="subject-intros" type="application/json">
+      {
+        "about-setting": "พัฒนาวิชาการ  ผลิตงานมาตรฐาน  ทำงานอย่างมืออาชีพ",
+        "history": "การแพทย์แผนไทย เป็นการแพทย์ที่อยู่คู่กับสังคมไทยมาตั้งแต่อดีต นับจากการมีประวัติศาสตร์ของชาติไทย",
+        "structure": " ",
+        "identity": "ใคณะการแพทย์แผนไทย",
+        "flowers": "บุนนาค (boon-nak)",
+        "color": "สีประจำคณะการแพทย์แผนไทย คือ สีเหลืองเกสรบุนนาค(รหัสสี RGB: #d7ae1c)",
+        "music": "เพลงแพทย์แผนไทย แต่งเนื้อร้องและทำนองโดย อาจารย์ปฏิญญา รัตนชล และดนตรีบรรเลงโดย คุณมานะ รักษ์วงศ์",
+        "award": " ",
+        "location": " ",
+
+        "bachelor": "หลักสูตรการแพทย์แผนไทยบัณฑิต (Bachelor of Thai Traditional Medicine Program)",
+        "master": "หลักสูตรการแพทย์แผนไทยมหาบัณฑิต (Master of Thai Traditional Medicine)",
+        "phd": "หลักสูตรการแพทย์แผนไทยดุษฎีบัณฑิต (Doctor of Thai Traditional Medicine Program)",
+
+        "executive": " ",
+        "faculty": " Examine team effectiveness and how to foster psychological safety.",
+        "professional": "",
+        "academic": "Empower your employees to grow and develop by making learning part of everyone\u2019s job.",
+        "other": " Examine team effectiveness and how to foster psychological safety.",
+        "teaching": " Examine team effectiveness and how to foster psychological safety.",
+        "general": "Make informed, objective people decisions using science and data.",
+        "support": "Empower your employees to grow and develop by making learning part of everyone\u2019s job.",
+        "department": "Empower your employees to grow and develop by making learning part of everyone\u2019s job.",
+        "hospital": " Examine team effectiveness and how to foster psychological safety."
+      }
+    </script>
+
+
+    <script src="static/js/lib.js"></script>
+    <script src="static/js/main.js"></script>
+
+    <script src="static/js/init.common.js"></script>
+    <script src="static/js/init.guide.js"></script>
+</body>
+
+</html>
