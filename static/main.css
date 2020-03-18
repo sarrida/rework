@@ -8977,6 +8977,7 @@ a .chip:hover {
   margin-bottom: 10px;
 }
 .guide-detail-page .guide__nav .nav__step-links .step-link,
+.guide-detail-page .guide__nav .nav__step-links .step-list,
 .secondary-drawer .guide__nav .nav__step-links .step-link {
   color: #a9a9a9;
   font-size: 14px;
@@ -8988,6 +8989,7 @@ a .chip:hover {
   }
 }
 .guide-detail-page .guide__nav .nav__step-links .step-link:hover,
+.guide-detail-page .guide__nav .nav__step-links .step-list:hover,
 .secondary-drawer .guide__nav .nav__step-links .step-link:hover {
   color: #00bcd4;
   text-decoration: none;
